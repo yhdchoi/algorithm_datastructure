@@ -5,8 +5,7 @@ array = [500, 100, 50, 10]
 
 for coin in array:
     count += n // coin
+    print(count)
     n %= coin
+    print(n)
 print(count)
-
-print("----------")
-

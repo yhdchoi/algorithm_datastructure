@@ -1,4 +1,4 @@
-n, m = list(map(int, input().split()))
+n, m = list(map(int, input().split(' ')))
 
 array = list(map(int, input().split()))
 
@@ -15,7 +15,7 @@ while (start <= end):
             total += x - mid
 
     if total < m:
-        end = - 1
+        end = mid - 1
 
     else:
         result = mid
