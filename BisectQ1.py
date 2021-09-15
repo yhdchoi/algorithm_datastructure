@@ -7,6 +7,7 @@ def count_by_range(array, left_value, right_value):
     return right_index - left_index
 
 
+# number (n) , find value x
 n, x = map(int, input().split())
 array = list(map(int, input().split()))
 
