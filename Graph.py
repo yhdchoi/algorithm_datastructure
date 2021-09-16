@@ -35,7 +35,7 @@ class Graph:
         shortest_path = None
         for node in self.graph_dict[start]:
             if node not in path:
-                sp = self.get_shortest_path(node, end)
+                sp = self.get_shortest_path(node, end, path)
                 if sp:
                     if shortest_path is None or len(sp) < len(shortest_path):
                         shortest_path = sp
