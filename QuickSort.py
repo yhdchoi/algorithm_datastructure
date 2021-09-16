@@ -21,7 +21,7 @@ def quick_sort(array, start, end):
     quick_sort(array, right + 1, end)
 
 # Lomuto Partition
-def quick_sort2(array, start, end):
+# def quick_sort2(array, start, end):
 
 
 
